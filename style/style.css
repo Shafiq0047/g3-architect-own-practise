@@ -149,3 +149,62 @@ main > section{
     font-size: 4rem;
     font-weight: 700;
 }
+
+.facts-title{
+
+}
+.fact-desc{
+    max-width: 540px;
+}
+.facts-card-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    
+    margin-top: 100px;
+}
+.facts-card{
+    border: 1px solid rgba(255, 144, 14, 1);
+    width: 240px;
+    height: 240px;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    
+}
+
+.fact-number{
+    font-size: 2.8rem;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.fact-details{
+     font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: 5px;
+}
+.sponsor-title{
+    font-size: 2.8rem;
+    font-weight: 700;
+    text-align: center;
+}
+.sponson-brands{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin-top: 76px;
+    filter: grayscale(100%);
+    margin-bottom: 100px;
+}
+.footer-section{
+    background-color: rgba(255, 144, 14, 0.1) ;
+    text-align: center;
+    max-width: 1440px;
+    margin: 0 auto;
+    
+}
+.footer-desc{
+    padding-top: 50px;
+    padding-bottom: 27px;
+}
